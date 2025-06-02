@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+.login{
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    margin: 20px auto;
+    padding: 2px 12px;
+    width: 320px;
+    height: 420px;
+    border-radius: 8px;
+}
+.input{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding: 16px 30px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+.btn{
+    background-color: royalblue;
+    width: 100%;
+    padding: 12px 26px;
+    border-radius: 8px;
+    
+}
+.center{
+    text-align: center;
+}
+.img{
+    width: 115px;
+    height: 135px;
+}
+.mail{
+    font: bold;
+}
+.welcome{
+    border: 3px solid white;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px 16px;
+    width: 290px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.work-btn{
+    padding: 12px 26px;
+    width: 100%;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+.personal-btn{
+    padding: 12px 26px;
+    width: 100%;
+    border-radius: 5px;
+}
+.hand-img{
+    width: 40px;
+    height: 40px;
+}
+.bag{
+    width: 20px;
+    height: 15px;
+    text-align: left;
+}
+.phone{
+    background-color: white;
+    border: 2px solid white;
+    margin: 18px auto;
+    text-align: center;
+    padding: 22px 12px;
+    width: 300px;
+    height: 260px;
+    border-radius: 6px;
+}
+.new{
+    width: 100%;
+    border: 1px solid lightblue;
+    margin: 6px 0 6px 0;
+    padding: 6px;
+    border-radius: 6px;
+}
+.port{
+    width: 100%;
+    border: 1px solid lightblue;
+    margin: 6px 0 6px 0;
+    padding: 6px;
+    border-radius: 6px;
+}
