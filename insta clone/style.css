@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    /* height: 100%; */
+    font-size: 15px;
+}
+.homepage{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 220px;
+    /* height: 100vh; */
+    border-right: 1px solid rgb(86, 84, 84);
+    padding: 24px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.insta-icon{
+    display: flex;
+    align-items: center;
+    border-top: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.home-icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.explore-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reels-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.messages-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.notification-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.create-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.dashboard-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.meta-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.studio-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.threads-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.more-icon{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-view{
+    width: 900px;
+    height: 500px;
+    margin: 40px 220px;
+    border: 1px solid black;
+}
+.profile-pic{
+    width: 130px;
+   height:  130px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+    cursor: pointer;
+}
+.profile-pic:hover{
+    transform: scale(1.05);
+}
+.dog-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.profile-header{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 60px 40px;
+}
+.profile-info{
+    /* padding-left: 40px; */
+    flex: 1;
+}
+.profile-username{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* margin-bottom: 15px; */
+}
+.follow-btn{
+    border: 1px solid #0095f6;
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 16px;
+    /* margin: 10px; */
+    border-radius: 8px;
+    /* width: 100%; */
+    cursor: pointer;
+}
+.follow-btn:hover{
+    transform: scale(1.05);
+}
+.msg-btn{
+    border: 1px solid white;
+     background-color: #363636;
+     color: white;
+     /* margin: 10px; */
+     padding: 8px 16px;
+     border-radius: 8px;
+     cursor: pointer;
+}
+.msg-btn:hover{
+     transform: scale(1.05);
+}
+.username{
+    display: flex;
+    /* align-items: center;justify-content: center; */
+    align-items: center;
+    gap: 6px;
+}
+.follow-icon-btn{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: white;
+    background-color: #363636;
+    padding: 4px 8px;
+}
+.follow-icon-btn:hover{
+     transform: scale(1.05);
+}
+.posts-num{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.numbers{
+    font-weight: bold;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.followers{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.following{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.thread-icon{
+   display: flex;
+   background-color: black;
+   color: white;
+   align-items: center;
+   padding: 8px 14px;
+   border-radius: 12px;
+}
+/* .thread-btn{
+    background-color: black;
+    color: white;
+} */
+/* .xcslo1z{
+   color: #fff;
+   background-color: black;}
+    */
+.bio-link{
+    color: white;
+}
+.bio-desc{
+    width: 350px;
+}
+.posts-last{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    /* align-items: center; */
+    flex-wrap:initial ;
+    justify-content: left;
+}
