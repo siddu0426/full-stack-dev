@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="flex">
+        <div class="nav">
+            <!-- <img src="www.netflix.com.svg" alt="" class="netflix-icon"> -->
+        </div>
+        <div class="nav-desc">
+            <h1>This is a Movie Search Application using JavaScript</h1>
+        </div>
+    </section>
+
+    <div class="header">
+        <div class="search-bar">
+            <input type="text" placeholder="Search a Movie..." class="search" id="movieName">
+            <button class="btn" onclick="search()">Search Movie</button>
+        </div>
+    </div>
+
+
+    <div id="container" class="m-data">
+        <div class="search-bar">
+            <div>
+                <h1 id="title">The Avengers</h1>
+                <p id="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias culpa sapiente maxime sunt dicta neque sit.</p>
+                <p>Actors: <span id="actors"></span></p>
+                <p>Director: <span id="director"></span></p>
+                <p>Released: <span id="released"></span></p>
+                <p>RunTime: <span id="runtime"></span></p>
+                <p>Collection: <span id="collection"></span></p>
+                <p>Genre: <span id="genre"></span></p>
+                <p>Writer: <span id="writer"></span></p>
+                <p>Language: <span id="language"></span></p>
+                <p>Country: <span id="country"></span></p>
+                <p>Awards: <span id="awards"></span></p>
+                <p>imdbRating: <span id="imdbrating"></span></p>
+                
+
+            </div>
+
+
+            <div class="banner">
+            <img id="poster" class="img-1" src="https://m.media-amazon.com/images/M/MV5BNWMwODYyMjQtMTczMi00NTQ1LWFkYjItMGJhMWRkY2E3NDAyXkEyXkFqcGc@._V1_SX300.jpg" alt="">
+            <!-- <div class="suggestion">Worth Watching</div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- <h1 id="error">Movie Not Found</h1> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
