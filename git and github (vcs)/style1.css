@@ -1,0 +1,15 @@
+img{
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+        body{
+    margin: 20px;
+    /* border: 1px solid white; */
+    width: 600px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: black; */
+    color: white;
+}
+}
